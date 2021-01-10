@@ -1,9 +1,84 @@
+/*
+Violet: 5E17EB
 
 
-SDASDAS
-SDASD asideD AS
-D 
-asideD 
-AS
-data AS 
-D
+*/
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+  --violet: #5E17EB;
+  --black: #0e0e0e;
+}
+
+.customb1 {
+    border: var(--violet);
+    color: #0e0e0e;
+    border: #0e0e0e;
+    border: 0.1px solid black;
+}
+
+.customb2 {
+    background-color: var(--violet);
+    border: var(--white);
+    color: #ffffff;
+}
+
+.customb2:hover {
+    opacity: 4.5;
+    background-color: #0e0e0e;
+    color: #ffffff;
+}
+
+.customb1:hover {
+    opacity: 4.5;
+    background-color: #0e0e0e;
+    color: #ffffff;
+}
+
+.category {
+    color: var(--black);
+}
+
+.category:hover {
+    color: var(--black);
+
+}
+
+.search-field {
+    border-radius: 40px 40px;
+}
+
+.form-custom {
+    padding: 5px 5px 5px 8px;
+}
+
+.form-custom:hover {
+    padding: 5px 5px 5px 8px;
+    color: #0e0e0e;
+}
+
+form .form-control:focus{
+  border-color:#5E17EB;
+  box-shadow: none;
+}
+
+.btn {
+    border-radius: 0%;
+}
+
+.btn:focus {
+    border-color:#5E17EB;
+    box-shadow: none;
+}
+
+.image {
+  display: block;
+  max-width:100%;
+  max-height:100vh;
+  width: auto;
+  height: auto;;
+}
