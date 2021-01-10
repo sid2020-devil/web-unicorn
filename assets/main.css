@@ -85,3 +85,8 @@ form .form-control:focus{
   height: 100vh;
   object-fit: cover;
 }
+.footer{
+    background-color: #D1C4EA;
+    margin: 0px auto;
+    padding: 10px 0px 10px 0px;
+}
