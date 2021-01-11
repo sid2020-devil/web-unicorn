@@ -109,12 +109,16 @@ form .form-control:focus{
   overflow: hidden;
 }
 .footer{
-    background-color: #D1C4EA;
+    background-color: #0e0e0e;
     margin: 0px auto;
     padding: 10px 0px 10px 0px;
 }
-
-
+.smed i{
+    color: #fff;
+    font-size: 40px;
+    margin: 12px;
+    padding-top: 10px;
+}
 .container {
     width: 80%;
 }
@@ -359,10 +363,6 @@ button:focus {
 /*
     Footer
 */
-.footer {
-    background-color: #0e0e0e;
-    width:auto
-}
 
 .ending-text {
     color: #ffffff;
