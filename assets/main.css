@@ -122,6 +122,7 @@ form .form-control:focus{
 .header {
     background-color: #0e0e0e;
     width: 80%;
+    
 }
 
 .header-block {
@@ -260,6 +261,9 @@ button:focus {
     padding: 8px 8px 0px 8px;
     border-radius: 0%;
     margin: 12px;
+    -webkit-box-shadow: 24px 14px 30px 0px rgba(42, 50, 50, 0.07);
+-moz-box-shadow:    24px 14px 30px 0px rgba(42, 50, 50, 0.07);
+box-shadow:         24px 14px 30px 0px rgba(42, 50, 50, 0.07);
 }
 
 .star-card-div {
@@ -341,6 +345,7 @@ button:focus {
     color: #0e0e0e;
 }
 
+
 .bestseller {
     font-weight: 600;
     font-size: 10px;
@@ -356,11 +361,23 @@ button:focus {
     border-bottom: #0e0e0e solid 0.1px;
 }
 
+
+.card {
+    border: 0.1px solid #f0f0f0 !important;
+    border-radius: 5px;
+}
+
+.card:hover {
+    border: 0.1px solid #000000 !important;
+}
+
 /*
     Footer
 */
 .footer {
     background-color: #0e0e0e;
+    padding-top: 40px;
+    margin-top: 30px;
 }
 
 .ending-text {
@@ -377,3 +394,28 @@ button:focus {
     color:#D1C4EA;
 }
 
+.search-icon {
+    position: relative;
+    left: -40px;
+}
+
+@media all and (max-device-width: 420px) {
+    .girl {
+        height: 200px;
+        width: auto;
+        position: relative;
+        top: -10px;
+        border: 0.1px solid black;
+        box-shadow:#5E17EB solid 6px 6px 0px 1px;
+        color: #0e0e0e;
+    }
+    .girl:hover {
+        height: 200px;
+        width: auto;
+        position: relative;
+        top: -10px;
+        border: 0.1px solid black;
+        box-shadow: #a0a0a0 6px 6px 0px 1px;
+        color: #0e0e0e;
+    }
+}
