@@ -114,30 +114,6 @@ form .form-control:focus{
     padding: 10px 0px 10px 0px;
 }
 
-/*
-    Footer
-*/
-.footer {
-    background-color: #0e0e0e;
-}
-
-.ending-text {
-    color: #ffffff;
-}
-
-.footer ul li a:hover{
-    text-decoration: none;
-    color: #ffffff;
-}
-.footer ul li a{
-    font-size: 18px;
-    text-decoration: none;
-    color:#D1C4EA;
-}
-
-.footer {
-    padding-top: 60px;
-}
 
 .container {
     width: 80%;
@@ -379,3 +355,26 @@ button:focus {
 .navbar {
     border-bottom: #0e0e0e solid 0.1px;
 }
+
+/*
+    Footer
+*/
+.footer {
+    background-color: #0e0e0e;
+    width:auto
+}
+
+.ending-text {
+    color: #ffffff;
+}
+
+.footer ul li a:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color:#D1C4EA;
+}
+
