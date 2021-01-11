@@ -340,6 +340,7 @@ button:focus {
     padding-bottom: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
+    border: 0.1px solid black;
 }
 .my-special {
     text-align: center;
@@ -373,4 +374,8 @@ button:focus {
     padding: 0px 2px 0px 2px;
     margin-left: 5px;
     opacity: 0.9;
+}
+
+.navbar {
+    border-bottom: #0e0e0e solid 0.1px;
 }
