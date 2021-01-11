@@ -286,5 +286,79 @@ button:focus {
     margin: 12px;
 }
 
-.mycustom-cards {
+.star-card-div {
+    display: block;
+    position: relative;
+    top: 30px;
+}
+
+.card-star {
+    height: 22px;
+    width: 22px;
+    color: #ffffff;
+    position: relative;
+    top: -4px;
+    
+}
+
+.card-students {
+    padding: 0px 0px 0px 30px;
+    position: relative;
+    top: -25px;
+    left: 0px;
+}
+
+.price {
+    font-family: roboto;
+}
+
+.card-students {
+    margin-bottom: 0px;
+}
+
+.card-body {
+    padding-bottom: 0px;
+}
+
+.off {
+    font-size: 14px;
+    font-weight: 500;
+    color: #505050;
+}
+
+.instructor {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.instructor-div {
+    text-align: center;
+    background-color:#f7f7f7;
+    width: 99%;
+    padding: 20px;
+    padding-top: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.my-special {
+    text-align: center;
+}
+
+.girl {
+    height: 300px;
+    width: auto;
+    position: relative;
+    top: -10px;
+    border: 0.1px solid black;
+    box-shadow:#5E17EB solid 6px 6px 0px 1px;
+    color: #0e0e0e;
+}
+.girl:hover {
+    height: 300px;
+    width: auto;
+    position: relative;
+    top: -10px;
+    border: 0.1px solid black;
+    box-shadow: #a0a0a0 6px 6px 0px 1px;
+    color: #0e0e0e;
 }
