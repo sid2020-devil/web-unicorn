@@ -1,4 +1,4 @@
-# web-unicorn
+# beach Hack
 Basic website for beach hack web dev contest.
 
 ### Objective 
