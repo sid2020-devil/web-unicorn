@@ -1,4 +1,4 @@
-# beach Hack
+# Beach Hack
 Basic website for beach hack web dev contest.
 
 ### Objective 
